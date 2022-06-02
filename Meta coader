@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta-coders Tech. World</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="design/0 3.png" type="image/x-icon">
+    <style>
+        .button {
+            background-image: linear-gradient(cyan, rgba(60, 158, 158, 0.747));
+            padding: 12px 30px;
+            text-decoration: none;
+            color: aliceblue;
+            font-size: 1.5em;
+            border-radius: 20px;
+        }
+        
+        .button:hover {
+            background-image: linear-gradient(rgba(233, 158, 145, 0.767), rgb(241, 190, 95));
+            color: aqua;
+        }
+        
+        .bt {
+            background-color: rgba(152, 218, 196, 0.253);
+        }
+        
+        .az {
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 5px;
+        }
+        
+        .rami {
+            text-align: center;
+            padding-top: 50px;
+            color: aqua;
+            font-size: 4em;
+        }
+        
+        .rami:hover {
+            color: rgb(0, 153, 255);
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <header>
+
+        <!--navigation-->
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light ba">
+
+
+                <div class="container-fluid">
+
+                    <a class="navbar-brand" href="#">
+                        <img src="design/0 3.png" alt="" width="120" height="60">
+                    </a>
+
+
+                    <a class="navbar-brand fs-3" href="#">Meta-coders Tech. World</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+
+
+
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Courses</a>
+                            </li>
+
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Demo Website
+                            </a>
+
+
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Portfolio Website</a></li>
+                                    <li><a class="dropdown-item" href="#">Business Website</a></li>
+                                    <li><a class="dropdown-item" href="#">Start-up Website</a></li>
+                                    <li><a class="dropdown-item" href="#">Resturant Website</a></li>
+                                    <li><a class="dropdown-item" href="#">Photograpy Website</a></li>
+                                    <li><a class="dropdown-item" href="#">News Website</a></li>
+                                    <li><a class="dropdown-item" href="#">Blog Website</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">See All</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                            </li>
+
+                        </ul>
+
+
+
+
+
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!--Cards-->
+        <section>
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="design/79 1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>E-learning</h1>
+                            <p>We offer Web development, UI/UX design, Data Analytics, Cyber Security & Digital Marketing. <br> So, lets start your new journey with us.</p>
+                            <br>
+                            <a class="button" href="">Course</a>
+                            <br>
+                            <br>
+                        </div>
+
+
+
+                    </div>
+                    <div class="carousel-item">
+                        <img src="design/0 1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Web development</h1>
+                            <p>We don't just sell websites, we create websites that SELL. ― Dr. Christopher Dayagdag</p>
+                            <br>
+                            <a class="button" href="">Website</a>
+                            <br><br>
+                        </div>
+
+
+
+                    </div>
+                    <div class="carousel-item">
+                        <img src="design/0 2.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="text-dark">Learn programming & UI/UX design</h1>
+                            <p class="text-dark">Programming isn't about what you know; it's about what you can figure out. - Chris Pine</p>
+                            <br>
+                            <a class="button" href="">Programming</a>
+                            <br>
+                            <br>
+
+                        </div>
+
+
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+
+    </header>
+
+    <body>
+
+        <h1 class="rami">Our Courses</h1>
+
+        <!--courses-->
+
+        <section class="m-5 p-4">
+            <div class="card-group">
+                <div class="card p-3">
+                    <img src="design/75.JPG" class="card-img-top" alt="..." height="275px">
+                    <div class="card-body">
+                        <h5 class="card-title">Artificial Intelligence</h5>
+                        <p class="card-text">In this course we will discuss about Machine learning (ML), a fundamental concept of AI.</p>
+                        <br>
+                        <a class="button" href="">Learn More</a>
+                    </div>
+
+                </div>
+                <div class="card p-3">
+                    <img src="design/78.JPG" class="card-img-top" alt="..." height="275px">
+                    <div class="card-body">
+                        <h5 class="card-title">E-learning</h5>
+                        <p class="card-text">In this course basically we focus on how to learn something and online effective learning process.</p>
+
+                        <br>
+                        <a class="button" href="">Learn More</a>
+
+                    </div>
+
+                </div>
+                <div class="card p-3">
+                    <img src="design/8.jpg" class="card-img-top" alt="..." height="275px">
+                    <div class="card-body">
+                        <h5 class="card-title">Web design</h5>
+                        <p class="card-text">One of the most important part is design a website. In this course we will learn fundamentals of UI/UX design.</p>
+                        <br>
+                        <a class="button" href="">Learn More</a>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="ms-5 me-5 p-4">
+            <div class="card text-center">
+
+                <div class="card-body bt">
+                    <h1 class="card-title">Seek more about our course</h1>
+                    <p class="card-text">We offer cost free, 100% online skill development real world courses. Learn more about our course...</p>
+                    <a class="button" href="">All course</a>
+                </div>
+            </div>
+        </section>
+
+
+        <h1 class="rami">Demo Website</h1>
+
+
+        <section class="m-5 p-4">
+
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="design/111.JPG" class="card-img-top" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title">Business Website</h5>
+                            <p class="card-text">This is a our demo site for business website, ro preview this site click on the below button. Good luck</p>
+                            <br>
+                            <a href="#" class="button">See More</a>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col">
+                    <div class="card">
+                        <img src="design/112.JPG" class="card-img-top" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title">Resturant website</h5>
+                            <p class="card-text">This is a our demo site for Resturant website, ro preview this site click on the below button. Good luck</p>
+                            <br>
+                            <a href="#" class="button">See More</a>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col">
+                    <div class="card">
+                        <img src="design/113.JPG" class="card-img-top" alt="..." height="270px">
+                        <div class="card-body">
+                            <h5 class="card-title">Photograpy website</h5>
+                            <p class="card-text">This is a our demo site for Photograpy website, ro preview this site click on the below button. Good luck</p>
+                            <br>
+                            <a href="#" class="button">See More</a>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col">
+                    <div class="card">
+                        <img src="design/114.JPG" class="card-img-top" alt="..." height="270px">
+                        <div class="card-body">
+                            <h5 class="card-title">News website</h5>
+                            <p class="card-text">This is a our demo site for news website, ro preview this site click on the below button. Good luck</p>
+                            <br>
+                            <a href="#" class="button">See More</a>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <h1 class="rami">Our services</h1>
+
+
+        <section class="m-5 p-4">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Portfolio Website</h5>
+                            <p class="card-text">Our portfolio web service is free for students and teachers. Know more our services See our demo portfolio website...</p>
+                            <br>
+                            <a href="#" class="button">See More</a>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Other Website</h5>
+                            <p class="card-text">Our business, marketing, start-up, Resturant, Photograpy, blog news website are paid service. Cost start from 30$.</p>
+                            <br>
+
+                            <a href="#" class="button">See More</a>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ms-5 me-5 p-4">
+            <div class="card bt">
+                <div class="card-header">
+                    Quote
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <h1>If you can't find the sunshine, be the sunshine.</h1>
+                        <footer>
+                            <h3>~ Unknown</h3>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      What we offer?
+                    </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>We offer online courses & website for sell</strong> We provided all our courses 100% free and online course with real world projets. We also provide web design templets & website. Our Portfolio website is free for students
+                            & teachers but our other catagories of website is paid.
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Demo Website
+                    </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Preview our demo website</strong> You can preview our demo website. We offer different kind of website like- portfolio website, business, marketing, start-up, Resturant, Photograpy, blog news website. If you buy our
+                            website; we will be provide you free domain and hosting for first three months.
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Our vision
+                    </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>We belive that education should be 100% free.</strong> we always open to learning and getting new experiences. Believe in the saying that “Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.” _ Samuel
+                            Becket. We are here to make your dream true.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="az">
+
+        <h1>Meta-coders Tech. World</h1>
+        <h2>&copy All right reserved</h2>
+
+    </footer>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
